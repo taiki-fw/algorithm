@@ -1,0 +1,21 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/taiki-fw/algorithm.git",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/node": "^12.11.1",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
