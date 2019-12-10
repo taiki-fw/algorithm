@@ -5,3 +5,14 @@ export function factorial(num: number): number {
     return 1;
   }
 }
+
+export function factorial2(num: number): number {
+  let result = 1;
+  // for (let i = num; i > 0; i--) {
+  //   result *= i;
+  // }
+  while (num > 0) {
+    result *= num--;
+  }
+  return result;
+}
